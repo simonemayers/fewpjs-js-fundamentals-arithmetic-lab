@@ -7,7 +7,7 @@ describe('index.js', function() {
       expect(num1).to.be.a('number')
       expect(num2).to.be.a('number')
       expect(multiply).to.eq(62)
-    });
+    });   
   });
   describe('random', function() {
     it("generates a random integer greater than 0", function() {
